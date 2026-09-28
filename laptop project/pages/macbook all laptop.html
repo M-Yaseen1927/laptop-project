@@ -1,0 +1,140 @@
+<!doctype html>
+<html lang="ur">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>laptop store</title>
+    <link rel="shortcut icon" href="../images/logo.png" type="image/x-icon" />
+    <style>
+      body {
+        font-family: "Poppins", sans-serif;
+        background: linear-gradient(135deg, #1e3c72, #2a5298, #f5af19);
+        text-align: center;
+        margin: 0;
+        padding: 20px;
+        color: white;
+      }
+      .gallery {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 30px;
+      }
+      .card {
+        background: rgba(255, 255, 255, 0.9);
+        border-radius: 15px;
+        padding: 20px;
+        box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+        text-align: center;
+        width: 320px;
+        transition: transform 0.3s ease-in-out;
+      }
+      .card:hover {
+        transform: translateY(-10px);
+      }
+      .card img {
+        max-width: 100%;
+        height: auto;
+        border-radius: 10px;
+      }
+      h1 {
+        font-size: 32px;
+        font-weight: bold;
+        margin-bottom: 20px;
+        text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+      }
+      h2 {
+        font-size: 22px;
+        margin-bottom: 10px;
+        color: #333;
+      }
+      .top-order-btn {
+        position: absolute;
+        top: 80%;
+        right: 30px;
+        transform: translateY(-50%);
+        background: linear-gradient(to right, #ff416c, #ff4b2b);
+        color: white;
+        padding: 10px 15px;
+        text-decoration: none;
+        border-radius: 50px;
+        font-weight: bold;
+        font-size: 16px;
+        transition: 0.3s;
+        box-shadow: 0px 4px 6px rgba(255, 87, 51, 0.5);
+      }
+      .top-order-btn:hover {
+        background: linear-gradient(to right, #ff4b2b, gray);
+        transform: scale(1.1);
+        font-size: large;
+        box-shadow: 0 6px 15px rgba(0, 201, 50, 0.8);
+      }
+      .top-order-btn {
+        position: static;
+        top: 50%;
+        right: 20px;
+        transform: translateY(-50%);
+        background: linear-gradient(to right, #ff416c, #ff4b2b);
+        color: white;
+        padding: 10px 15px;
+        text-decoration: none;
+        border-radius: 50px;
+        font-weight: bold;
+        font-size: 16px;
+        transition: 0.3s;
+        box-shadow: 0px 4px 6px rgba(255, 87, 51, 0.5);
+      }
+      .top-order-btn:hover {
+        background: linear-gradient(to right, #a83926, gray);
+        transform: scale(1.1);
+        font-size: large;
+        box-shadow: 0 6px 15px rgba(0, 201, 50, 0.8);
+      }
+      .btns {
+        transform: translateY(-50%);
+        background: linear-gradient(to right, #51b161, #2bb1ff);
+        color: rgb(44, 39, 39);
+        padding: 10px 15px;
+        text-decoration: none;
+        border-radius: 50px;
+        font-weight: bold;
+        font-size: 16px;
+        transition: 0.3s;
+        box-shadow: 0px 4px 6px rgba(255, 87, 51, 0.5);
+      }
+      .btns:hover {
+        background: linear-gradient(to right, #e7f759, gray);
+        transform: scale(1.1);
+        font-size: large;
+        box-shadow: 0 6px 15px rgba(0, 201, 50, 0.8);
+      }
+    </style>
+  </head>
+  <body>
+    <h1>MacBook laptop store</h1>
+    <div class="gallery">
+      <div class="card">
+        <h2>mac book</h2>
+        <a href="macbook store 1.html"
+          ><img src="mac.webp" alt="Apple MacBook"
+        /></a>
+      </div>
+      <div class="card">
+        <h2>mac book</h2>
+        <a href="macbook store 2.html">
+          <img src="mac book.jpg" alt="Apple MacBook"
+        /></a>
+      </div>
+      <div class="card">
+        <h2>mac book</h2>
+        <a href="macbook store 3.html"
+          ><img src="MACBOOk.jpg" alt="Apple MacBook"
+        /></a>
+      </div>
+    </div>
+    <br /><br />
+    <a href="index.html" class="top-order-btn">back to home</a>
+    <br /><br /><br />
+    <a href="order macbook.html" class="btns">order macbook</a>
+  </body>
+</html>

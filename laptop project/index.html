@@ -1,0 +1,118 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Laptop Store</title>
+    <link rel="shortcut icon" href="./images/logo.png" type="image/x-icon">
+    <style>
+      body {
+        font-family: "Poppins", sans-serif;
+        margin: 0;
+        padding: 0;
+      }
+      header {
+        background: linear-gradient(90deg, #000428, #004e92);
+        color: rgb(255, 255, 255);
+        padding: 1em;
+        text-align: center;
+        font-size: 24px;
+        font-weight: bold;
+      }
+
+      nav {
+        background-color: #222;
+        padding: 1em;
+        text-align: center;
+      }
+
+      nav a {
+        color: rgb(94, 255, 0);
+        margin: 0 15px;
+        text-decoration: none;
+        font-weight: bold;
+        transition: 0.3s;
+      }
+      /* nav a:hover {
+        color: #f39c12;
+        font-size: large;
+      } */
+      .container {
+        padding: 10px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 40px;
+      }
+      .laptop-item {
+        border-radius: 10px;
+        padding: 15px;
+        text-align: center;
+        width: 30%;
+        background: white;
+        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+        transition: transform 0.3s;
+      }
+      .laptop-item:hover {
+        background-color: red;
+        transform: scale(1.05);
+        color: rgba(255, 255, 255, 0.726);
+      }
+      .laptop-item img {
+        text-align: center;
+        max-width: 100%;
+        border-radius: 10px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <header>
+      <h1>Laptop Store</h1>
+    </header>
+
+    <nav class="menu">
+      <a href="./pages/dell alll laptop.html">Gaming Laptops</a>
+      <a href="./pages/hp all laptop.html">HP Laptops</a>
+      <a href="./pages/all student laptop.html">Student Laptops</a>
+    </nav>
+
+    <div class="container">
+      <div class="laptop-item">
+        <h2>Dell Gaming Laptop</h2>
+        <a href="./pages/dell.html"><img src="./images/dell laptop.jpg" /></a>
+      </div>
+
+      <div class="laptop-item">
+        <h2>HP Business Laptop</h2>
+        <a href="./pages/hp  details.html"><img src="./images/hp.jpg" /></a>
+      </div>
+
+      <div class="laptop-item">
+        <h2>Apple MacBook</h2>
+        <a href="./pages/macbook.html"><img src="./images/macbook.webp" /></a>
+      </div>
+
+      <div class="laptop-item">
+        <h2>Student Laptop</h2>
+        <a href="./pages/student laptop.html"
+          ><img src="./images/st laptop.jpg"
+        /></a>
+      </div>
+
+      <div class="laptop-item">
+        <h2>Touch Screen Laptop</h2>
+        <a href="./pages/touch screen laptop 2.html"
+          ><img src="./images/touch screen laptop 2.jpg"
+        /></a>
+      </div>
+
+      <div class="laptop-item">
+        <h2>Window Laptop</h2>
+        <a href="./pages/window laptop.html"
+          ><img src="./images/window laptop 3.jpg"
+        /></a>
+      </div>
+    </div>
+  </body>
+</html>
